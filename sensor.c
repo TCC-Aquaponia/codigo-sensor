@@ -1,3 +1,5 @@
+//Fonte: (GIOCARDUINO,2020) adaptado pelos autores.
+
 #include<Thermistor.h>;
 
 Thermistor temperaturaPort(A2);
@@ -31,7 +33,7 @@ void loop() {
 	int luz = analogRead(ldr);
 	Serial.print("Temperatura: ");
 	Serial.print(temperatura);
-	Serial.println(" ºC");
+	Serial.println(" ÂºC");
 	Serial.print("luz:");
 	Serial.println(luz);
 	
